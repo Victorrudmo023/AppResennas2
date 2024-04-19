@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://app-resennas2.vercel.app',
+  baseURL: 'https://appresennas.netlify.app',
 });
 
 API.interceptors.request.use((config) => {
