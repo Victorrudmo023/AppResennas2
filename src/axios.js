@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://app-resennas2.vercel.app',
 });
 
 API.interceptors.request.use((config) => {
