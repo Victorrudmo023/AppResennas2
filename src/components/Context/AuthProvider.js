@@ -42,7 +42,7 @@ useEffect(() => {
 
 const login = async (email, password) => {
   try {
-      const response = await axios.post('https://appresennas.netlify.app/login', { email, password });
+      const response = await axios.post('http://localhost:3001/login', { email, password });
       console.log(response.data);
       const { accessToken, user } = response.data;
       localStorage.setItem('token', accessToken);
@@ -56,7 +56,7 @@ const login = async (email, password) => {
 
 const register = async (email, password, username) => {
   try {
-      const response = await axios.post('https://appresennas.netlify.app/register', { email, password, username });
+      const response = await axios.post('http://localhost:3001/register', { email, password, username });
       const { accessToken, user } = response.data;
       localStorage.setItem('token', accessToken);
       localStorage.setItem('user', JSON.stringify(user));

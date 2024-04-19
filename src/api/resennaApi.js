@@ -15,7 +15,7 @@ export const postResenna = async (resenna) => {
             imagenGeneral: imagenGeneralBase64
         };
 
-        const response = await fetch("https://appresennas.netlify.app/resennas", {
+        const response = await fetch("http://localhost:3001/resennas", {
             method: 'POST',
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify(resennaWithImages)
@@ -50,7 +50,7 @@ export const convertImageToBase64 = (imageFile) => {
 };
 
 export const deleteResennna = async (resenna) => {
-    const response = await fetch("https://appresennas.netlify.app/resennas/" + resenna.id, {
+    const response = await fetch("http://localhost:3001/resennas/" + resenna.id, {
         method: "DELETE"
     });
     
@@ -63,7 +63,7 @@ export const deleteResennna = async (resenna) => {
 
 export const updateResennna = async (resenna) => {
     try {
-      const response = await fetch(`https://appresennas.netlify.app/resennas/${resenna.id}`, {
+      const response = await fetch(`http://localhost:3001/resennas/${resenna.id}`, {
         method: 'PUT',
         headers: { 'Content-type': 'application/json' },
         body: JSON.stringify(resenna)
@@ -81,12 +81,12 @@ export const updateResennna = async (resenna) => {
 };
 
 export const getResenna = async () => {
-    const response = await fetch("https://appresennas.netlify.app/resennas");
+    const response = await fetch("http://localhost:3001/resennas");
     return await response.json();
 };
 
 export const getResennaOne = async (resennaId) => {
-    const response = await fetch(`https://appresennas.netlify.app/resennas/${resennaId}`);
+    const response = await fetch(`http://localhost:3001/resennas/${resennaId}`);
     return await response.json();
 };
   

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://appresennas.netlify.app',
+  baseURL: 'http://localhost:3001',
 });
 
 API.interceptors.request.use((config) => {

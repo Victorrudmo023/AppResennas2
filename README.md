@@ -13,7 +13,7 @@ Solucionar pdf que solo saca la de la primera
 Hacer que barra de arriba se vea por encima del mapa
 
 Pasos
-Crear proyecto en firebase App Resennas y sustituir https://appresennas.netlify.app por https://app-resennas-50a9e.firebaseapp.com con el codigo que sea
+Crear proyecto en firebase App Resennas y sustituir http://localhost:3001 por https://app-resennas-50a9e.firebaseapp.com con el codigo que sea
 
 npm install firebase
 npm install -g firebase-tools
