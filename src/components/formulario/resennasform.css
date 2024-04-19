@@ -1,0 +1,73 @@
+.resennaform {
+  background-color: rgb(7, 199, 109);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 320px;
+  margin-right: 320px;
+  width: auto;
+  height: auto;
+  border: 3px solid;
+  border-color: black;
+  padding: 20px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.form-group {
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%; 
+  margin-bottom: 10px; 
+}
+
+.izqAnnadir {
+  text-align: left;
+  width: 30%;
+  margin-left: 100px;
+}
+
+.derAnnadir {
+  width: 30%;
+  text-align: left; 
+  margin-right: 150px; 
+}
+
+.error-input {
+  margin-top: 2px;
+  margin-left: 0px; 
+  margin-right: 0px; 
+  border: 2px solid black;
+  background-color: red;
+  color: white;
+}
+
+.success-message{
+  color: rgb(50, 120, 201);
+  font-weight: bold;
+}
+
+.form-group.center {
+  display: flex;
+  justify-content: center; 
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+}
+
+.derAnnadirImagen {
+  width: 50%;
+  text-align: left; 
+  margin-right: 20px; 
+}
+
+#previewLogo{
+  height: 100px;
+  width: 150px;
+}
+
+#preview{
+  height: 250px;
+  width: 150px;
+}

@@ -1,0 +1,197 @@
+.portada{
+  background-color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 17%;
+    margin-right: 17%;
+    width: auto;
+    height: auto;
+    border: 3px solid;
+    border-color: black;  
+}
+
+.pdf{
+  align-items: center;
+  text-align: center;
+}
+
+.caja {
+  border: 3px solid black; 
+  margin: 2%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;     
+}
+
+.portadaSuperior{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 500px;
+  color: rgb(50, 120, 201);
+  }
+
+.info {
+    display: flex;
+    align-items: center; 
+}
+
+.info img {
+    height: 100px;
+    width: 150px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 1%;
+}
+
+.info p {
+    font-weight: bold;
+}
+
+.blue{
+    color: rgb(50, 120, 201);
+    font-size: 20px;
+}
+
+.blueMarca{
+    font-size: 30px
+}
+
+.left-column {
+    flex: 1; 
+}  
+
+#gris{
+    font-weight: bold;
+    color: black;
+    background-color: lightgray; 
+}
+
+.left-column,
+.right-column {
+  width: calc(40%);
+  padding: 0 5%;
+}
+
+#image{
+  height: 350px;
+  width: 250px;
+}
+
+#image2{
+  height: 350px;
+  width: 250px;
+  margin-bottom: 2%;
+}
+
+#lineas{
+  line-height: 0.4;
+  color: rgb(50, 120, 201);
+  font-weight: bold;
+  text-align: left;
+}
+
+#lineaFecha{
+  line-height: 0.4;
+  color: rgb(50, 120, 201);
+  font-weight: bold;
+  text-align: center;
+}
+
+.lineaFinal{
+  margin-bottom: 20px;
+}
+
+.lineaPrimera{
+  margin-top: 20px;
+}
+
+.ofiteat{
+  height: 75px;
+  width: 200px;
+}
+
+.fecha{
+  margin-top: 0px;
+}
+
+.der {
+  color: black;
+  font-weight: lighter;  
+  text-align: right; 
+  margin-right: 10px; 
+}
+
+.portada button{
+  margin-bottom: 1%;
+}
+
+.grupo{
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%; 
+  margin-bottom: 0.3%; 
+}
+
+.guardar{
+  margin-left: 1%;
+}
+
+.izqEdit {
+  text-align: left;
+  width: 40%;
+  margin-left: 10px;
+}
+
+.derEdit {
+  text-align: left;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.cajaPrincipal{
+    background-color: rgb(7, 199, 109);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    border-color: black;
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .App{
+    margin-top: 40px;
+  }
+
+  .columnaExpediente{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .marca {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  
+  .expediente {
+    font-size: 12px;
+    color: #000; 
+    margin-top: 0px;
+    text-align: left;
+  }
+
+  .huechange {
+    filter: hue-rotate(155deg); /* Cambia el color del marcador */
+  }
+
+
